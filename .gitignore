@@ -1,0 +1,40 @@
+# ---- DATA AND LARGE FILES ----
+data/
+data1a/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ---- MODEL AND CHECKPOINTS ----
+*.h5
+*.hdf5
+*.pb
+*.pt
+*.pth
+checkpoints/
+models/
+
+# ---- PYTHON BUILD / CACHE ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ---- NOTEBOOK & TEMP FILES ----
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# ---- ENVIRONMENTS ----
+.env
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+
+# ---- SYSTEM FILES ----
+.DS_Store
+Thumbs.db
